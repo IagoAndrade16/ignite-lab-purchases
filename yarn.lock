@@ -135,7 +135,7 @@
   dependencies:
     "@apollographql/graphql-playground-html" "1.6.29"
 
-"@apollo/server@^4.0.0", "@apollo/server@^4.3.2":
+"@apollo/server@^4.0.0", "@apollo/server@^4.3.2", "@apollo/server@^4.5.0":
   "integrity" "sha512-+7iRp0omJATUrVQ6b4JKi4XUvvuL+hBxu5/Hy6WiZmVNcVm19zzO+xTOlXO8OJBZgd14jZnGRgWx/eZjXEmkXQ=="
   "resolved" "https://registry.npmjs.org/@apollo/server/-/server-4.5.0.tgz"
   "version" "4.5.0"
@@ -1106,6 +1106,14 @@
   "integrity" "sha512-3dHxLXs3M0GPiriAcCFFJQHoDFUuzTD5w6JDhE7TyfT89YKpe6tcCCIqOZWdXmt9AZjjK30RkHRSFF+QEnWFQg=="
   "resolved" "https://registry.npmjs.org/@nestjs/mapped-types/-/mapped-types-1.2.2.tgz"
   "version" "1.2.2"
+
+"@nestjs/microservices@^9.0.0", "@nestjs/microservices@^9.3.12":
+  "integrity" "sha512-V8gd2pqKrQyeYjl0GBqMrsSzMzSZmGXCPQw9y+sDfflljTqDAYgHQJiA596UDSFw6LKLZ2pdvAZMd8QQ7MEZWw=="
+  "resolved" "https://registry.npmjs.org/@nestjs/microservices/-/microservices-9.3.12.tgz"
+  "version" "9.3.12"
+  dependencies:
+    "iterare" "1.2.1"
+    "tslib" "2.5.0"
 
 "@nestjs/platform-express@^9.0.0":
   "integrity" "sha512-5aWokr8s0pipD5c/n40xC1iv3cMXfWrOhciX430p53cy4uyTAE+sTBk0PhB6tdG8NpK33aNqqHz/tyKlauQu/Q=="
@@ -4018,6 +4026,11 @@
   dependencies:
     "jwa" "^1.4.1"
     "safe-buffer" "^5.0.1"
+
+"kafkajs@*", "kafkajs@^2.2.4":
+  "integrity" "sha512-j/YeapB1vfPT2iOIUn/vxdyKEuhuY2PxMBvf5JWux6iSaukAccrMtXEY/Lb7OvavDhOWME589bpLrEdnVHjfjA=="
+  "resolved" "https://registry.npmjs.org/kafkajs/-/kafkajs-2.2.4.tgz"
+  "version" "2.2.4"
 
 "kleur@^3.0.3":
   "integrity" "sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w=="
